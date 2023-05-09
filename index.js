@@ -16,7 +16,7 @@ app.get('/ping', async (req, res) => {
 })
 
 app.get('/create', async (req, res) => {
-    const result = await pool.query('INSERT INTO ropa (nombre, precio, cantidad) VALUES ("Camisa JLB", 499, 5)')
+    const result = await pool.query('INSERT INTO Ropa (nombre, precio, cantidad) VALUES ("Camisa JLB", 499, 5)')
     res.json(result)
 })
 
