@@ -1,0 +1,6 @@
+CREATE TABLE ropa (
+    id INT PRIMARY KEY AUTO_INCREMENT, 
+    nombre VARCHAR(255) NOT NULL, 
+    precio FLOAT NOT NULL,
+    cantidad INT NOT NULL
+);
